@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 export const Li = styled.li`
-padding: .3em;
-list-style: none;
-`
+  padding: 0.3em;
+  list-style: none;
+`;

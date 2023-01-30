@@ -57,20 +57,6 @@ export const App = () => {
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
-
-  // componentDidMount() {
-  //   const contacts = JSON.parse(localStorage.getItem('contacts'));
-  //   if (contacts) {
-  //     this.setState({ contacts });
-  //   }
-  // }
-
-  // componentDidUpdate(prevProps, prevState) {
-  //   if (prevState.contacts !== this.state.contacts) {
-  //     localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
-  //   }
-  // }
-
   return (
     <>
       <ContactsBook>
