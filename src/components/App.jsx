@@ -7,7 +7,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import React, { useState, useEffect } from 'react';
 
 const InitialStickers = () => {
-  const contacts = JSON.parse(localStorage.getItem('contacts') || []);
+  const contacts = JSON.parse(localStorage.getItem('contacts')) || [];
   return contacts;
 };
 export const App = () => {
